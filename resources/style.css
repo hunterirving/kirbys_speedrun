@@ -1,0 +1,191 @@
+@font-face {
+	font-family: "Chunky Pixels";
+	src: url("fonts/chunky_pixels.ttf") format("truetype");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Pixel Script";
+	src: url("fonts/pixel_script.ttf") format("truetype");
+	font-display: swap;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--dark-grey: #555555;
+	--light-grey: #999999;
+}
+
+* { box-sizing: border-box; }
+
+html {
+	scrollbar-color: #cccccc var(--white);
+}
+
+::selection {
+	background: var(--black);
+	color: var(--white);
+}
+
+body {
+	margin: 0 auto;
+	padding: 32px 16px 48px;
+	max-width: 704px;
+	background: var(--white);
+	font-family: "Pixel Script", monospace;
+	font-size: 16px;
+	line-height: 2;
+	color: var(--black);
+	-webkit-font-smoothing: none;
+}
+
+img {
+	image-rendering: pixelated;
+}
+
+h1 {
+	font-family: "Chunky Pixels", monospace;
+	font-size: 32px;
+	line-height: 1.4;
+	margin: 0;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: "Chunky Pixels", monospace;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 40px 0 8px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+p { margin: 20px 0; }
+
+a {
+	color: var(--black);
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 3px;
+}
+
+a:hover {
+	color: var(--white);
+	background-color: var(--black);
+	text-decoration-color: var(--black);
+}
+
+.swaps {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin: 35px 0;
+}
+
+.swap {
+	flex: 1 1 324px;
+	margin: 0;
+}
+
+.swap .frames {
+	position: relative;
+	width: 324px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.swap img {
+	display: block;
+	width: 320px;
+	max-width: 100%;
+	height: auto;
+	border: 2px solid var(--light-grey);
+}
+
+.swap img + img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: swap-in 3s infinite;
+}
+
+.swap figcaption {
+	display: grid;
+	text-align: center;
+	color: var(--dark-grey);
+}
+
+.swap figcaption span {
+	grid-area: 1 / 1;
+}
+
+.swap figcaption span:first-child {
+	animation: swap-out 3s infinite;
+}
+
+.swap figcaption span:last-child {
+	animation: swap-in 3s infinite;
+}
+
+@keyframes swap-in {
+	0%, 50% { opacity: 0; }
+	50.01%, 100% { opacity: 1; }
+}
+
+@keyframes swap-out {
+	0%, 50% { opacity: 1; }
+	50.01%, 100% { opacity: 0; }
+}
+
+#drop {
+	display: block;
+	width: 100%;
+	margin-top: 16px;
+	padding: 32px 16px;
+	background: var(--white);
+	border: 3px dashed var(--light-grey);
+	font: inherit;
+	color: var(--light-grey);
+	text-align: center;
+	cursor: pointer;
+}
+
+#drop:hover, #drop.over {
+	border-color: var(--dark-grey);
+	color: var(--dark-grey);
+}
+
+#drop small {
+	display: block;
+	font-size: 16px;
+	margin-top: 8px;
+}
+
+#status {
+	margin-top: 16px;
+	padding: 12px;
+	border: 2px solid var(--black);
+}
+
+#status .hashes {
+	margin-top: 16px;
+	overflow-x: auto;
+}
+
+#status p {
+	margin: 16px 0 0;
+}
+
+#status .hashes span {
+	display: block;
+}
+
+#status .hashes .v {
+	font-family: "Chunky Pixels", monospace;
+	white-space: nowrap;
+	margin-bottom: 8px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="/kirbys_speedrun/">
+<title>Kirby's Speedrun</title>
+<link rel="stylesheet" href="resources/style.css">
+</head>
+<body>
+
+<header>
+	<h1>Kirby's Speedrun</h1>
+</header>
+
+<p>
+	This unofficial mod for Kirby's Dream Land replaces the in-game score display with a speedrun timer. It begins when you press START on the title screen, and ends when you land the final blow on King Dedede.
+</p>	
+<p>
+	Over the course of a run, gameplay may drift from vanilla by a few frames, so consider this a practice tool rather than an authoritative timekeeper.
+</p>
+
+<div class="swaps">
+	<figure class="swap">
+		<div class="frames">
+			<img src="resources/images/hud_before.png" width="160" height="144" alt="The vanilla status bar showing a score of 0">
+			<img src="resources/images/hud_after.png" width="160" height="144" alt="The same status bar showing a running clock">
+		</div>
+		<figcaption><span>Vanilla</span><span>Patched</span></figcaption>
+	</figure>
+	<figure class="swap">
+		<div class="frames">
+			<img src="resources/images/ending_before.png" width="160" height="144" alt="The ending screen, its in-game display reading EXTRA GAME">
+			<img src="resources/images/ending_after.png" width="160" height="144" alt="The same ending screen, its in-game display reading a final time of 14:23">
+		</div>
+		<figcaption><span>Vanilla</span><span>Patched</span></figcaption>
+	</figure>
+</div>
+
+<h2>Apply the Patch</h2>
+
+<button id="drop" type="button">
+	Drop your ROM here
+	<br>
+	or click to browse
+</button>
+<input id="file" type="file" accept=".gb,.bin" hidden>
+
+<div id="status" hidden></div>
+
+<h2>Bring your own ROM</h2>
+
+<p>
+	No ROM is distributed here. You must provide your own, legitimate copy of the ROM to use this mod. Products like Epilogue's <a href="https://www.epilogue.co/product/gb-operator">GB Operator</a> may help you create archival backups of Game Boy software you legally own. Patching is performed in your web browser, and no files ever leave your device.
+</p>
+
+<h2>Disclaimer</h2>
+
+<p>
+	This is an unofficial fan project. It is not affiliated with, sponsored by, or endorsed by Nintendo or HAL Laboratory.
+</p>
+<p>
+	Kirby, Kirby's Dream Land, and Game Boy are trademarks of Nintendo. Kirby's Dream Land is &copy; 1992 HAL Laboratory, Inc. / Nintendo.
+</p>
+
+<script src="resources/script.js"></script>
+
+</body>
+</html>
