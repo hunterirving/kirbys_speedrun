@@ -2,8 +2,6 @@
 
 This unofficial mod for Kirby's Dream Land replaces the in-game score display with a speedrun timer. It begins when you press START on the title screen, and ends when you land the final blow on King Dedede.
 
-Over the course of a run, gameplay may drift from vanilla by a few frames, so consider this a practice tool rather than an authoritative timekeeper.
-
 <table align="center">
 	<tr>
 		<th>Vanilla</th>
@@ -18,6 +16,8 @@ Over the course of a run, gameplay may drift from vanilla by a few frames, so co
 		<td><img src="resources/images/ending_after.png" alt="The same ending screen, its in-game display reading a final time of 14:23"></td>
 	</tr>
 </table>
+
+Over the course of a run, gameplay may drift from vanilla by a few frames, so consider this a practice tool rather than an authoritative timekeeper.
 
 ## Bring your own ROM
 
