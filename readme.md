@@ -4,14 +4,26 @@ This unofficial mod for Kirby's Dream Land replaces the in-game score display wi
 
 Over the course of a run, gameplay may drift from vanilla by a few frames, so consider this a practice tool rather than an authoritative timekeeper.
 
-| Vanilla | Patched |
-| --- | --- |
-| ![The vanilla status bar showing a score of 0](resources/images/hud_before.png) | ![The same status bar showing a running clock](resources/images/hud_after.png) |
-| ![The ending screen, its in-game display reading EXTRA GAME](resources/images/ending_before.png) | ![The same ending screen, its in-game display reading a final time of 14:23](resources/images/ending_after.png) |
+<table align="center">
+	<tr>
+		<th>Vanilla</th>
+		<th>Patched</th>
+	</tr>
+	<tr>
+		<td><img src="resources/images/hud_before.png" alt="The vanilla status bar showing a score of 0"></td>
+		<td><img src="resources/images/hud_after.png" alt="The same status bar showing a running clock"></td>
+	</tr>
+	<tr>
+		<td><img src="resources/images/ending_before.png" alt="The ending screen, its in-game display reading EXTRA GAME"></td>
+		<td><img src="resources/images/ending_after.png" alt="The same ending screen, its in-game display reading a final time of 14:23"></td>
+	</tr>
+</table>
 
 ## Bring your own ROM
 
-No ROM is distributed here. You must provide your own, legitimate copy of the ROM to use this mod. Products like Epilogue's [GB Operator](https://www.epilogue.co/product/gb-operator) may help you create archival backups of Game Boy software you legally own. Patching is performed [in your web browser](https://hunterirving.github.io/kirbys_speedrun), and no files ever leave your device.
+No ROM is distributed here. You must provide your own, legitimate copy of the ROM to use this mod. Products like Epilogue's [GB Operator](https://www.epilogue.co/product/gb-operator) may help you create archival backups of Game Boy software you legally own.
+
+Patching is performed [in your web browser](https://hunterirving.github.io/kirbys_speedrun), and no files ever leave your device.
 
 ## Disclaimer
 
