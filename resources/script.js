@@ -1,5 +1,5 @@
 const EXPECTED_IN = "90979baa1d0e24b41b5c304c5ddaf77450692d5a";
-const EXPECTED_OUT = "cf430e87081b315976d9041bad6dade15d5c4cf7";
+const EXPECTED_OUT = "aa005616ba1cf0a20eb3fa431c02c32b6f288ea2";
 const FILENAME = "Kirby's Speedrun.gb";
 const JAPANESE = ["1e34b7beee30e350087771b3a3e05a40e4a1ea84", "5fe35fab25299b6c53b40decfe2b1827b4a64d2a"];
 const JAPANESE_HINT = "This patch is only compatible with the US/Europe release of the game.";
