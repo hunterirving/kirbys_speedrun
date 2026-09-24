@@ -8,12 +8,12 @@ This unofficial mod for Kirby's Dream Land replaces the in-game score display wi
 		<th>Patched</th>
 	</tr>
 	<tr>
-		<td><img src="resources/images/hud_before.png" width="160" alt="The vanilla status bar showing a score of 0"></td>
-		<td><img src="resources/images/hud_after.png" width="160" alt="The same status bar showing a running clock"></td>
+		<td><img src="resources/images/4x/hud_before.png" width="160" alt="The vanilla status bar showing a score of 0"></td>
+		<td><img src="resources/images/4x/hud_after.png" width="160" alt="The same status bar showing a running clock"></td>
 	</tr>
 	<tr>
-		<td><img src="resources/images/ending_before.png" width="160" alt="The ending screen, its in-game display reading EXTRA GAME"></td>
-		<td><img src="resources/images/ending_after.png" width="160" alt="The same ending screen, its in-game display reading a final time of 14:23"></td>
+		<td><img src="resources/images/4x/ending_before.png" width="160" alt="The ending screen, its in-game display reading EXTRA GAME"></td>
+		<td><img src="resources/images/4x/ending_after.png" width="160" alt="The same ending screen, its in-game display reading a final time of 14:23"></td>
 	</tr>
 </table>
 
