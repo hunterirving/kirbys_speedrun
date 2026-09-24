@@ -23,7 +23,9 @@ Over the course of a run, gameplay may drift from vanilla by a few frames, so co
 
 No ROM is distributed here. You must provide your own, legitimate copy of the ROM to use this mod. Products like Epilogue's [GB Operator](https://www.epilogue.co/product/gb-operator) may help you create archival backups of Game Boy software you legally own.
 
-Patching is performed [in your web browser](https://hunterirving.github.io/kirbys_speedrun), and no files ever leave your device. To patch with another tool, [download the IPS patch](https://github.com/hunterirving/kirbys_speedrun/raw/main/kirby%27s_speedrun.ips) directly.
+Patching is performed [in your web browser](https://hunterirving.github.io/kirbys_speedrun), and no files ever leave your device.
+
+To patch with another tool, [download the IPS patch](https://github.com/hunterirving/kirbys_speedrun/raw/main/kirby%27s_speedrun.ips) directly.
 
 ## Disclaimer
 
