@@ -17,7 +17,7 @@ This unofficial mod for Kirby's Dream Land replaces the in-game score display wi
 	</tr>
 </table>
 
-Over the course of a run, gameplay may drift from vanilla by a few frames, so consider this a practice tool rather than an authoritative timekeeper.
+Over the course of a run, gameplay may drift from vanilla by a few frames, so consider this a speedrunning practice tool rather than an authoritative timekeeper.
 
 ## Bring your own ROM
 
